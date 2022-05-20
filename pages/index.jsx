@@ -15,17 +15,15 @@ export default function Home() {
   axios
     .get("https://api.github.com/repos/appwrite/appwrite")
     .then((response) => {
-      console.log(response);
-      console.log(response.data.stargazers_count);
       setStarts(response.data.stargazers_count);
     });
 
   return (
-    <Box bg="#f02e65" height="100vh" width="100vw">
-      <Center>
-        <Image src={logo} alt="logo" width="600px"></Image>
+    <Box bg="#f02e65" height="100vh" width="100vw" fontFamily={'poppins'}>
+      <Center paddingTop={'80px'}>
+        <Image src={logo} alt="logo" height={'250px'}></Image>
       </Center>
-      <Box>
+      <Box >
         <Box>
           <CountUp
             start={0}
@@ -40,7 +38,7 @@ export default function Home() {
                 <Center>
                   <Text
                     ref={countUpRef}
-                    fontSize="4rem"
+                    fontSize={["50px", "80px", "190px", "220px"]}
                     fontWeight="bold"
                     color="#fff"
                     textAlign="center"
@@ -54,15 +52,16 @@ export default function Home() {
       <Box>
       <Center>
         <Text
-            fontSize="4rem"
+            fontSize={["40px", "40px", "60px", "80px"]}
             fontWeight="bold"
             color="#fff"
             textAlign="center"
           >
-        Github Star-gazers
+        Github Stargazers
           </Text>
         </Center>
       </Box>
     </Box>
+   
   );
 }
