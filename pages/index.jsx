@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <Box bg="#f02e65" height="100vh" width="100vw" fontFamily={'poppins'}>
       <Center paddingTop={'80px'}>
-        <Image src={logo} alt="logo" height={'250px'}></Image>
+        <Image src={logo} alt="logo" height={'210px'}></Image>
       </Center>
       <Box >
         <Box>
@@ -41,8 +41,11 @@ export default function Home() {
                     fontSize={["50px", "80px", "190px", "220px"]}
                     fontWeight="bold"
                     color="#fff"
+
                     textAlign="center"
                   ><AiFillStar></AiFillStar></Text>
+                    
+                    
                 </Center>
               </div>
             )}
