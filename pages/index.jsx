@@ -41,11 +41,8 @@ export default function Home() {
                     fontSize={["50px", "80px", "190px", "220px"]}
                     fontWeight="bold"
                     color="#fff"
-
                     textAlign="center"
-                  ><AiFillStar></AiFillStar></Text>
-                    
-                    
+                  ><AiFillStar></AiFillStar></Text> 
                 </Center>
               </div>
             )}
