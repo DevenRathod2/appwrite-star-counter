@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Live Website
+<a href="https://appwrite-star-counter.vercel.app/">Click Here</a>
+
+
 ## Getting Started
 
 First, run the development server:
