@@ -3,6 +3,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Live Website
 <a href="https://appwrite-star-counter.vercel.app/">Click Here</a>
 
+# Deployed On Vercel
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
 
 ## Getting Started
 
