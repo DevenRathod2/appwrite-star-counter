@@ -7,7 +7,7 @@ import axios from "axios";
 import { useState } from "react";
 import CountUp from "react-countup";
 import { AiFillStar, AiFillGithub } from "react-icons/ai";
-import { AiFillStar } from "react-icons/ai";
+
 
 
 export default function Home() {
