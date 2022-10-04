@@ -1,10 +1,14 @@
+import React from "react";
+import Head from "next/head";
 import Image from "next/image";
 import { Box, Center, Text } from "@chakra-ui/react";
 import logo from "../public/logo.svg";
 import axios from "axios";
 import { useState } from "react";
 import CountUp from "react-countup";
-import { AiFillStar } from "react-icons/ai";
+import { AiFillStar, AiFillGithub } from "react-icons/ai";
+
+
 
 export default function Home() {
   const [starts, setStarts] = useState(null);
@@ -17,8 +21,8 @@ export default function Home() {
 
   return (
     <Box bg="#f02e65" height="100vh" width="100vw" fontFamily={"poppins"}>
-      <Center paddingTop={"80px"}>
-        <Image src={logo} alt="logo" height={"210px"}></Image>
+      <Center>
+        <Image src={logo} alt="logo" height={"250px"}></Image>
       </Center>
       <Box>
         <Box>
