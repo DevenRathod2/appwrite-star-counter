@@ -8,7 +8,6 @@ import { useState } from "react";
 import CountUp from "react-countup";
 import { AiFillStar, AiFillGithub } from "react-icons/ai";
 
-
 export default function Home() {
   const [starts, setStarts] = useState(null);
 
@@ -19,11 +18,11 @@ export default function Home() {
     });
 
   return (
-    <Box bg="#f02e65" height="100vh" width="100vw" fontFamily={'poppins'}>
-      <Center paddingTop={'80px'}>
-        <Image src={logo} alt="logo" height={'250px'}></Image>
+    <Box bg="#f02e65" height="100vh" width="100vw" fontFamily={"poppins"}>
+      <Center>
+        <Image src={logo} alt="logo" height={"250px"}></Image>
       </Center>
-      <Box >
+      <Box>
         <Box>
           <CountUp
             start={0}
@@ -42,7 +41,9 @@ export default function Home() {
                     fontWeight="bold"
                     color="#fff"
                     textAlign="center"
-                  ><AiFillStar></AiFillStar></Text>
+                  >
+                    <AiFillStar></AiFillStar>
+                  </Text>
                 </Center>
               </div>
             )}
@@ -50,18 +51,17 @@ export default function Home() {
         </Box>
       </Box>
       <Box>
-      <Center>
-        <Text
+        <Center>
+          <Text
             fontSize={["40px", "40px", "60px", "80px"]}
             fontWeight="bold"
             color="#fff"
             textAlign="center"
           >
-        Github Stargazers
+            Github Stargazers
           </Text>
         </Center>
       </Box>
     </Box>
-   
   );
 }
