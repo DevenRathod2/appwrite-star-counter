@@ -1,13 +1,14 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import { Box, Center, Text } from "@chakra-ui/react";
 import logo from "../public/logo.svg";
 import axios from "axios";
 import { useState } from "react";
 import CountUp from "react-countup";
 import { AiFillStar, AiFillGithub } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
+
 
 export default function Home() {
   const [starts, setStarts] = useState(null);
@@ -58,10 +59,12 @@ export default function Home() {
             fontWeight="bold"
             color="#fff"
             textAlign="center"
+            mt={["20px", "0px", "0px", "0px"]}
           >
             Github Stargazers
           </Text>
         </Center>
+        <Center></Center>
       </Box>
     </Box>
   );
